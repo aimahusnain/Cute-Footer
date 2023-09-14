@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer</title>
+    <style>
+        body {
+            background-color: #FFE4E1; /* Cute Pink */
+            color: #333; /* Dark Gray Text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .Content-Container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 40px;
+            padding: 20px;
+            border-top: 1px solid black;
+        }
+
+        .Content-Container > div {
+            flex: 1;
+            padding: 20px;
+            border-right: 1px solid black;
+        }
+
+        .Content-Container > div:last-child {
+            border-right: none;
+        }
+
+        h3 {
+            font-size: 18px;
+            color: #FF69B4; /* Cute Pink */
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .Quick-Links > a {
+            color: #333; /* Dark Gray Text */
+            text-decoration: none;
+            display: block;
+            font-weight: bold;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+
+        .Quick-Links > a:hover {
+            color: #FF69B4; /* Cute Pink */
+        }
+
+        .Social-Media {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .fa {
+            font-size: 24px;
+            margin: 0 10px;
+            color: #333; /* Dark Gray Text */
+            transition: color 0.3s;
+        } 
+
+        .fa:hover {
+            color: #FF69B4; /* Cute Pink */
+        }
+
+        footer {
+            text-align: center;
+            background-color: #FFE4E1; /* Cute Pink */
+            padding: 10px 0;
+            color: #333; /* Dark Gray Text */
+            font-size: 14px;
+        }
+
+        .Content-Container > div > h3 {
+            color: #FF69B4; /* Cute Pink */
+        }
+
+        body > h1 {
+            display: flex;
+            justify-content: center;
+        }
+
+        @media screen and (max-width: 768px) {
+            .Content-Container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .Content-Container > div {
+                width: 100%;
+                border: none;
+                margin-bottom: 20px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Muhammad Husnain</h1>
+    <div class="Content-Container">
+        <div class="Our-Contact">
+            <h3>Our Contact</h3>
+            <ul>
+                <li>Canals Technologies Inc</li>
+                <li>92B, Street 1, Awami Villas 6, Phase 8, Bahria Town, Rawalpindi, Pakistan.</li>
+                <li>(03)07-424-1757</li>
+                <li>aimahusnain@gmail.com</li>
+            </ul>
+        </div>
+
+        <div class="Quick-Links">
+            <h3>Quick Links</h3>
+            <a href="#">Latest Events</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Career</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="Latest-Posts">
+            <h3>Latest Posts</h3>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Cum, eligendi amet deserunt cumque perspiciatis quos hic</li>
+                <li>vel omnis et a vero obcaecati. Cumque vel sequi consectetur</li>
+            </ul>
+        </div>
+
+        <div class="Recent-News">
+            <h3>Recent News</h3>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                <li>Cum, eligendi amet deserunt cumque perspiciatis quos hic</li>
+                <li>vel omnis et a vero obcaecati. Cumque vel sequi consectetur</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="Social-Media">
+        <i class="fa fa-facebook icon"></i>
+        <i class="fa fa-twitter icon"></i>
+        <i class="fa fa-linkedin icon"></i>
+        <i class="fa fa-pinterest icon"></i>
+        <i class="fa fa-google icon"></i>
+    </div>
+
+    <footer>
+        Ⓒ Canals Technologies Template 2017 All rights reserved. Template by Muhammad Husnain.
+    </footer>
+</body>
+</html>
